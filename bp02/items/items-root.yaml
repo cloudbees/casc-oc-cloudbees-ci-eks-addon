@@ -37,7 +37,7 @@ items:
           kind: "Service"
           metadata:
             labels:
-              operated.prometheus: "true"
+              cloudbees.operated.prometheus = "true"
     properties:
       - configurationAsCode:
           bundle: "main/bp02.none-ha"
@@ -71,7 +71,7 @@ items:
           kind: "Service"
           metadata:
             labels:
-              operated.prometheus: "true"
+              cloudbees.operated.prometheus = "true"
     properties:
       - configurationAsCode:
           bundle: "main/bp02.ha"
