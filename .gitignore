@@ -1,0 +1,7 @@
+#Ignore auto-generated files and directories
+.DS_Store
+.idea
+.vscode
+*.bkp
+*.dtmp
+*.save
