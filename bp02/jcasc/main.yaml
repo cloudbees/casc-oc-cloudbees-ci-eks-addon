@@ -5,7 +5,7 @@ unclassified:
   bundleStorageService:
     activated: true
     activeBundle:
-      name: "casc-mm-store"
+      name: "casc-mc-store"
       retriever:
         SCM:
           defaultVersion: "main"

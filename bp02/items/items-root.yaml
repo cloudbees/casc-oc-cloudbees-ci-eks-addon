@@ -2,7 +2,7 @@ removeStrategy:
   rbac: SYNC
   items: NONE
 items:
-  # Non-Casc
+  # Non-CasC
   - kind: managedController
     name: team-a
     configuration:
@@ -11,7 +11,7 @@ items:
         cpus: 1.0
         disk: 20
         storageClassName: "gp3"
-  # Casc, Non-HA
+  # CasC, Non-HA
   - kind: managedController
     name: team-b
     configuration:
@@ -41,7 +41,7 @@ items:
     properties:
       - configurationAsCode:
           bundle: "main/bp02.none-ha"
-  # Casc, HA
+  # CasC, HA
   - kind: managedController
     name: team-c-ha
     configuration:
