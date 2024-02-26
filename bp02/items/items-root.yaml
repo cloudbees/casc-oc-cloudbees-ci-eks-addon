@@ -11,7 +11,7 @@ items:
         cpus: 1.0
         disk: 20
         storageClassName: "gp3"
-  # CasC, Non-HA
+  # CasC, non-HA
   - kind: managedController
     name: team-b
     configuration:
